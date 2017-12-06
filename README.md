@@ -1,7 +1,3 @@
-# Blockchain-Trains-an-AI
-# BlockchainAI
-
-
 Leveraging the Blockchain to Train an AI
 ========================================
 
