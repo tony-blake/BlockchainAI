@@ -10,9 +10,9 @@ This the repository for our ECIS 2018 complete research paper submission
 You will need to use Bash so if you are using Windows 10 activate the Windows Subsytem for Linux (beta)
 Ethereum Command Line Tools - Geth
 Node  
-R 
-Rstudio 
-Python 3 
-keras 
-tensorFlow 
+R   
+Rstudio   
+Python 3   
+keras   
+tensorFlow   
 
