@@ -1,7 +1,7 @@
 # BlockchainAI - LSTM
 
 
-#Open up Spyder IDE and set this Directory as the working directory
+#(Optional)Open up Spyder IDE and set this Directory as the working directory
 
 To create dataset open up a browser (preferably chrome)
 and type in the URL
