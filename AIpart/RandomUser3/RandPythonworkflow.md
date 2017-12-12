@@ -105,9 +105,13 @@ ggplot(dataset7, aes(x = timestep, y = Ether_Price_Value, group=variable, col=va
         axis.title=element_text(size=15,face="bold"),legend.text=element_text(size = 20), legend.title=element_text(size=10,face="bold")) +
   ggtitle("predictions vs test set")
 dev.off()
+```
 
 
+Statistics
+===========
 
+```{r Initial - version}
 dataset9 <- dataset4[1:950,]
 dataset10 <- dataset4[951:1900,]
 dataset11 <- dataset5[951:1886,]
@@ -143,3 +147,4 @@ library(lmtest)
 
 grangertest(dataset10$Ether_Price_Value, dataset9$Ether_Price_Value, 50)
 grangertest(dataset11$Ether_Price_Value, dataset9$Ether_Price_Value, 50)
+```
