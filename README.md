@@ -9,7 +9,8 @@ This is the repository for our ECIS 2018 complete research paper submission
 
 Bash (if you are using Windows 10 activate the Windows Subsytem for Linux (beta))
 
-Ethereum Command Line Tools - Geth
+Geth (Ethereum Command Line Tools) 
+
 Node.js        
 R   
 Rstudio   
