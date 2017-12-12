@@ -118,7 +118,7 @@ smooth_vals3 = predict(loess(Ether_Price_Value~timestep,dataset9), dataset9$time
 smooth_vals3 <- data.frame(smooth_vals3)
 smooth_vals4 = predict(loess(Ether_Price_Value~timestep,dataset10), dataset10$timestep)
 smooth_vals4 <- data.frame(smooth_vals4)
-diffpredtrue <- smooth_vals - smooth_vals2
+diffpredtrue <- smooth_vals3 - smooth_vals4
 mean(smooth_vals3$smooth_vals3) - mean(smooth_vals4$smooth_vals4)
 median(smooth_vals3$smooth_vals3) - median(smooth_vals4$smooth_vals4)
 summary(dataset4$Ether_Price_Value)
