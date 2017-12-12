@@ -1,5 +1,5 @@
 Introduction
-------------
+============
 
 This workflow describes how to input the datasets, preprocess the data, set up the deep learning modules in python and read the results back into R for further processing and plotting.
 
@@ -45,7 +45,7 @@ sed 's/"//g' -i siraj.csv
 ```
 
 Run LSTM python module on preprocessed dataset
-----------------------------------------------
+==============================================
 
 In the same bash terminal as previously opened run the following command
 
@@ -60,7 +60,7 @@ The loading, training, prediction and output process should take around 10 minut
 
 
 Further data processing and ploting of predictions versus true values
----------------------------------------------------------------------
+=====================================================================
 
 
 ```{r Initial - version}
@@ -109,7 +109,7 @@ dev.off()
 
 
 Statistical Analysis
---------------------
+====================
 
 ```{r Initial - version}
 dataset9 <- dataset4[1:950,]
