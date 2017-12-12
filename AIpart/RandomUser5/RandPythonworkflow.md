@@ -108,8 +108,10 @@ dev.off()
 ``` 
 
 
-# Statistical Analysis
+Statistical Analysis
+=====================
 
+```{r Initial - version}
 dataset9 <- dataset4[1:950,]
 dataset10 <- dataset4[951:1900,]
 smooth_vals3 = predict(loess(Ether_Price_Value~timestep,dataset9), dataset9$timestep)
@@ -121,3 +123,4 @@ mean(smooth_vals3$smooth_vals3) - mean(smooth_vals4$smooth_vals4)
 median(smooth_vals3$smooth_vals3) - median(smooth_vals4$smooth_vals4)
 summary(dataset4$Ether_Price_Value)
 grangertest(dataset10$Ether_Price_Value, dataset9$Ether_Price_Value, 50)
+```
