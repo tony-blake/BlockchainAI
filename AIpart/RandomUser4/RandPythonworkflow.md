@@ -133,11 +133,15 @@ dev.off()
 
 summary(denormed$denormalized)
 unique(denormed$denormalized)
+````
+
+Statistics
+==========
 
 
+```{r Initial - version}
 
-
-  dataset9 <- dataset4[1:950,]
+dataset9 <- dataset4[1:950,]
 dataset10 <- dataset4[951:1900,]
 dataset11 <- dataset5[951:1,]
 
