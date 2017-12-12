@@ -1,5 +1,5 @@
 Introduction
-===========
+------------
 
 This workflow describes how to input the datasets, preprocess the data, set up the deep learning modules in python and read the results back into R for further processing and plotting.
 
