@@ -66,7 +66,7 @@ Further data processing and ploting of predictions versus true values
 ```{r Initial - version}
 #read in the predictions file
 
-db <- read.csv('betterPreditions2.csv', header = F,
+db <- read.csv('preditions.csv', header = F,
                colClasses=c("numeric", "numeric", "numeric", "numeric", "numeric","numeric", "numeric", "numeric", "numeric", "numeric",
                             "numeric", "numeric", "numeric", "numeric", "numeric","numeric", "numeric", "numeric", "numeric", "numeric",
                             "numeric", "numeric", "numeric", "numeric", "numeric","numeric", "numeric", "numeric", "numeric", "numeric",
