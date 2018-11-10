@@ -22,7 +22,7 @@ Extracting the Data
 
 In our case extracting the relevant information in all blocks between 4391479 and 4476560 resulted in the limit of what we could import into R for data analysis and for training the AI. Of course if one had the requsite hardware (multi-thread processing or MPI) and memory capacity and one could just extract all of the blockchain data (upto and including 4476560) into a single textfile by using the following command.
 
-'''sudo geth --cache=4096 --exec 'loadScript("usersTransactions.js"); getTransactionsByAccount("", 1, 4476560)' attach > AllTheJSONs.txt''' 
+'''sudo geth --cache=4096 --exec 'loadScript("usersTransactions.js"); getTransactionsByAccount("*", 1, 4476560)' attach > AllTheJSONs.txt''' 
 
 
 Converting the key-value pair data into CSV form
